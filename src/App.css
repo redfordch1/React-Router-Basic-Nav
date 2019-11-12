@@ -1,11 +1,27 @@
 .App {
   text-align: center;
+  background-color: grey;
 }
 
-.Nav-link {
+/* .Nav-link {
   padding: 2rem;
 }
 
 .nav-item {
   margin-top: 1rem;
+} */
+
+.link {
+  border: 2px solid black;
+  padding: 5px;
+  margin-top: 20px;
+  color: black;
+  line-height: 2.5;
+  border-radius: 5px;
+}
+
+.link:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
 }
